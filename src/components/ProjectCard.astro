@@ -1,0 +1,19 @@
+---
+// Props: image URL, tags array, title, description
+const { image, tags = [], title, description } = Astro.props;
+---
+
+<article class="project-card rounded-lg dark:bg-gray-900">
+    <img src={image} alt={title} class="project-image rounded-t-lg" />
+    <div class="ml-5 mt-5 project-tags flex gap-2">
+        {tags.map((tag: string) => (
+            <span class="tag p-1 font-thin text-xs rounded-sm font-mono bg-rose-500">{tag}</span>
+        ))}
+    </div>
+    <h3 class="project-title m-5 text-2xl font-light">{title}</h3>
+    <p class="project-description m-5 font-extralight">{description}</p>
+    <p class="m-5"><a href="" class="">Read more &rarr;</a></p>
+</article>
+
+<style>
+</style>

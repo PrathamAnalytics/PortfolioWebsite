@@ -1,0 +1,98 @@
+---
+import "../styles/global.css";
+import Layout from '../layouts/Layout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+---
+
+<Layout>
+	<main>
+		<header class="mb-8">
+			<h1 class="text-5xl lg:text-6xl font-sans font-semibold header-style">Pratham Chatterjee</h1>
+			<p class="font-mono">Data Analyst</p>
+		</header>
+
+		<section class="aboutme mb-10">
+			<h2 class="text-3xl md:text-4xl font-light mb-5">About Me</h2>
+			<p>Hello! I'm Pratham Chatterjee, an economics graduate from the University of Calcutta (2021–2024) with a passion for blending economics and data analytics to solve real-world problems.</p>
+			<p>I specialize in data cleaning and exploration using Excel, conducting exploratory data analysis (EDA) and advanced data manipulation using PostgreSQL and Python, and crafting impactful visual stories through Power BI. With a strong interest in market trend analysis and consumer behavior, I’m driven to turn data into meaningful, results-oriented insights. </p>
+		</section>
+		<section class="sidenote mb-10">
+			<p>Due to privacy, my resume is available on request. Kindly reach out via <a href="https://www.linkedin.com/in/pratham-chatterjee" target="_blank">LinkedIn</a> or <a href="mailto:prathamchatterjee15@gmail.com" target="_blank">email</a>.</p>
+		</section>
+		<section class="contact mb-10">
+			<h2 class="text-3xl md:text-4xl font-light mb-5">Online</h2>
+			<ul class="flex gap-5">
+				<li><a href="https://www.linkedin.com/in/pratham-chatterjee" target="_blank">LinkedIn &UpperRightArrow;</a></li>
+				<li><a href="mailto:prathamchatterjee15@gmail.com" target="_blank">Email &UpperRightArrow;</a></li>
+				<li><a href="#" target="_blank">GitHub &UpperRightArrow;</a></li>
+			</ul>
+		</section>
+		<section class="skills mb-10 ">
+			<h2 class="text-3xl md:text-4xl font-light mb-5">Skills</h2>
+			<!-- <marquee class=""> -->
+				<ul class="flex gap-5 hover:animate-bounce">
+					<li>Excel</li>
+					<li>PostgreSQL</li>
+					<li>Python</li>
+					<li>Power BI</li>
+					<li>Tableau</li>
+				</ul>
+			</marquee>
+		</section>
+		<section class="certifications mb-10">
+			<h2 class="text-3xl md:text-4xl font-light mb-5">Certifications</h2>
+			<ul class="flex gap-5">
+				<li><a href="https://www.linkedin.com/in/pratham-chatterjee/detail/certifications/" target="_blank">Sample &UpperRightArrow;</a></li>
+				<li><a href="https://www.linkedin.com/in/pratham-chatterjee/detail/certifications/" target="_blank">Sample &UpperRightArrow;</a></li>
+				<li><a href="https://www.linkedin.com/in/pratham-chatterjee/detail/certifications/" target="_blank">Sample &UpperRightArrow;</a></li>
+				<li><a href="https://www.linkedin.com/in/pratham-chatterjee/detail/certifications/" target="_blank">Sample &UpperRightArrow;</a></li>
+				<li><a href="https://www.linkedin.com/in/pratham-chatterjee/detail/certifications/" target="_blank">Sample &UpperRightArrow;</a></li>
+			</ul>
+		</section>
+		<section class="projects grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+			<h2 class="text-3xl md:text-4xl font-light mb-5">Projects</h2>
+			<ProjectCard
+				title="Employee Attrition & Workforce Report"
+				description="Analysis of 1,400+ IT employees using satisfaction scores, performance ratings, tenure, and other factors to identify drivers of attrition retention strategies."
+				link="#"
+				tags={['Python', 'EDA', 'Power BI']}
+				image="https://prathamchatterjee.notion.site/image/attachment%3A4af05b45-0757-45eb-9fad-176bdc915d77%3AEmployee-leaving-blog.jpg?table=block&id=1d42f938-0b15-81fe-9886-d32b1aa30bf6&spaceId=7693e59d-6ee7-4c3f-8cd7-ab1ac96c942b&width=2000&userId=&cache=v2"
+			/>
+			<ProjectCard
+				title="Employee Attrition & Workforce Report"
+				description="Analysis of 1,400+ IT employees using satisfaction scores, performance ratings, tenure, and other factors to identify drivers of attrition retention strategies."
+				link="#"
+				tags={['Python', 'EDA', 'Power BI']}
+				image="https://prathamchatterjee.notion.site/image/attachment%3A4af05b45-0757-45eb-9fad-176bdc915d77%3AEmployee-leaving-blog.jpg?table=block&id=1d42f938-0b15-81fe-9886-d32b1aa30bf6&spaceId=7693e59d-6ee7-4c3f-8cd7-ab1ac96c942b&width=2000&userId=&cache=v2"
+			/>
+			<ProjectCard
+				title="Employee Attrition & Workforce Report"
+				description="Analysis of 1,400+ IT employees using satisfaction scores, performance ratings, tenure, and other factors to identify drivers of attrition retention strategies."
+				link="#"
+				tags={['Python', 'EDA', 'Power BI']}
+				image="https://prathamchatterjee.notion.site/image/attachment%3A4af05b45-0757-45eb-9fad-176bdc915d77%3AEmployee-leaving-blog.jpg?table=block&id=1d42f938-0b15-81fe-9886-d32b1aa30bf6&spaceId=7693e59d-6ee7-4c3f-8cd7-ab1ac96c942b&width=2000&userId=&cache=v2"
+			/>
+			<ProjectCard
+				title="Employee Attrition & Workforce Report"
+				description="Analysis of 1,400+ IT employees using satisfaction scores, performance ratings, tenure, and other factors to identify drivers of attrition retention strategies."
+				link="#"
+				tags={['Python', 'EDA', 'Power BI']}
+				image="https://prathamchatterjee.notion.site/image/attachment%3A4af05b45-0757-45eb-9fad-176bdc915d77%3AEmployee-leaving-blog.jpg?table=block&id=1d42f938-0b15-81fe-9886-d32b1aa30bf6&spaceId=7693e59d-6ee7-4c3f-8cd7-ab1ac96c942b&width=2000&userId=&cache=v2"
+			/>
+			<ProjectCard
+				title="Employee Attrition & Workforce Report"
+				description="Analysis of 1,400+ IT employees using satisfaction scores, performance ratings, tenure, and other factors to identify drivers of attrition retention strategies."
+				link="#"
+				tags={['Python', 'EDA', 'Power BI']}
+				image="https://prathamchatterjee.notion.site/image/attachment%3A4af05b45-0757-45eb-9fad-176bdc915d77%3AEmployee-leaving-blog.jpg?table=block&id=1d42f938-0b15-81fe-9886-d32b1aa30bf6&spaceId=7693e59d-6ee7-4c3f-8cd7-ab1ac96c942b&width=2000&userId=&cache=v2"
+			/>
+			<ProjectCard
+				title="Employee Attrition & Workforce Report"
+				description="Analysis of 1,400+ IT employees using satisfaction scores, performance ratings, tenure, and other factors to identify drivers of attrition retention strategies."
+				link="#"
+				tags={['Python', 'EDA', 'Power BI']}
+				image="https://prathamchatterjee.notion.site/image/attachment%3A4af05b45-0757-45eb-9fad-176bdc915d77%3AEmployee-leaving-blog.jpg?table=block&id=1d42f938-0b15-81fe-9886-d32b1aa30bf6&spaceId=7693e59d-6ee7-4c3f-8cd7-ab1ac96c942b&width=2000&userId=&cache=v2"
+			/>
+		</section>
+	</main>
+</Layout>
